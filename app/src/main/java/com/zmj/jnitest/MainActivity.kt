@@ -59,6 +59,15 @@ class MainActivity : AppCompatActivity() {
 
             timer()
         }
+
+        btn_jump.setOnClickListener {
+            startActivity(Intent(this,SecondAct::class.java))
+
+            //https://www.jianshu.com/p/b78a38c857e8  Android10.0 activity的启动
+
+        }
+
+
     }
 
     fun timer(){
